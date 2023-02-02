@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,600;1,700&display=swap");
+
+#name-header {
+  position: absolute;
+  width: 364px;
+  height: 134px;
+  left: 123px;
+  top: 80px;
+
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 80px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+
+  color: #3c6146;
+}
+
+#stroke {
+  position: absolute;
+  width: 423px;
+  height: 2px;
+  left: 94px;
+  top: 300px;
+
+  background: url(bild.png);
+}
+
+ul {
+  position: absolute;
+  width: 121px;
+  height: 244px;
+  left: 100px;
+  top: 329px;
+  list-style: none;
+}
+
+li {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 61px;
+  /* or 203% */
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+
+  color: #3c6146;
+}
